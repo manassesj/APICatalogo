@@ -27,3 +27,11 @@
 /home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/obj/Debug/net5.0/ref/APIcatalogo.dll
 /home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/obj/Debug/net5.0/APIcatalogo.pdb
 /home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/obj/Debug/net5.0/APIcatalogo.genruntimeconfig.cache
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/System.Data.SqlClient.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/bin/Debug/net5.0/APIcatalogo.xml
+/home/manassesj/Documents/projects/digital/catalogo/APIcatalogo/obj/Debug/net5.0/APIcatalogo.xml
