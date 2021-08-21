@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using APIcatalogo.Exceptions;
 using APIcatalogo.InputModel;
 using APIcatalogo.Services;
 using APIcatalogo.ViewModel;
@@ -54,8 +55,7 @@ namespace APIcatalogo.Controllers.v1
 
                 return Ok(jogo);
             }
-            // catch (JogoJaCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoJaCadastradoException ex)
             {
                 return UnprocessableEntity("Já existe um jogo com este nome para esta produtora");
             }
@@ -71,8 +71,7 @@ namespace APIcatalogo.Controllers.v1
 
                 return Ok();
             }
-            // catch (JogoNaoCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoNaoCadastradoException ex)
             {
                 return NotFound("Não existe este jogo");
             }
@@ -87,8 +86,7 @@ namespace APIcatalogo.Controllers.v1
 
                 return Ok();
             }
-            // catch (JogoNaoCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoNaoCadastradoException ex)
             {
                 return NotFound("Não existe este jogo");
             }
@@ -103,8 +101,7 @@ namespace APIcatalogo.Controllers.v1
 
                 return Ok();
             }
-            // catch (JogoNaoCadastradoException ex)
-            catch (Exception ex)
+            catch (JogoNaoCadastradoException ex)
             {
                 return NotFound("Não existe este jogo");
             }
