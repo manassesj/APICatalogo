@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using APIcatalogo.Controllers.v1;
+using APIcatalogo.Middleware;
 using APIcatalogo.Repositories;
 using APIcatalogo.Services;
 using Microsoft.AspNetCore.Builder;
@@ -56,6 +57,8 @@ namespace APIcatalogo
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIcatalogo v1"));
             }
+            
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 
